@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Animation for Carousel */
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .carouselLogo {
+    animation: scroll 30s linear infinite;
+  }
+  .tab-content { 
+    display: none; 
+  }
+  .tab-content.active { 
+    display: block; 
+  }
+  .active-tab div{
+    background-color: #E24C4A;
+  }
+  
+  .carousel-item {
+        display: none;
+    }
+  .carousel-item.active {
+        display: block;
+    }
+  .testimonial-card {
+    flex: 0 0 calc(50% - 1rem); /* Adjust width to display 2 cards with spacing */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .hidden-card {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .active-card {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #testimonialSlider {
+    gap: 1rem; /* Add gap between cards */
+  }
