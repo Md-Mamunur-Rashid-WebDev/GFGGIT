@@ -22,6 +22,7 @@ module.exports = {
         'gifBg': "url('/images/gif bg.gif')",
         'aboutUsHeroBg': "url('/images/About us Hero bg.png')",
         'serviceHeroBg': "url('/images/service hero bg.png')",
+        'missionBg': "url('/images/mission-bg.png')",
       }
     },
   },
