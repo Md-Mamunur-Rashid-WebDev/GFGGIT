@@ -49,3 +49,21 @@
   #testimonialSlider {
     gap: 1rem; /* Add gap between cards */
   }
+  .slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  .slider img {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  /* Custom transition for hover effect */
+  .group:hover .group-hover\:opacity-50 {
+    opacity: 0.5;
+  }
+  .group:hover .group-hover\:scale-105 {
+    transform: scale(1.05);
+  }
