@@ -3267,6 +3267,14 @@ input.tab:checked + .tab-content,
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-EnergyUtilitiesBg {
+  background-image: url('/images/EnergyUtilitiesBg.png');
+}
+
+.bg-RetailServiceBg {
+  background-image: url('/images/RetailServiceBg.png');
+}
+
 .bg-aboutUsHeroBg {
   background-image: url('/images/About us Hero bg.png');
 }
@@ -3315,6 +3323,10 @@ input.tab:checked + .tab-content,
   background-image: url('/images/insuranceSolutionsBg.png');
 }
 
+.bg-manufacturingCloudBg {
+  background-image: url('/images/manufacturingCloudBg.png');
+}
+
 .bg-missionBg {
   background-image: url('/images/mission-bg.png');
 }
@@ -3351,8 +3363,8 @@ input.tab:checked + .tab-content,
   background-image: url('/images/solutionsHeroBg.png');
 }
 
-.bg-manufacturingCloudBg {
-  background-image: url('/images/manufacturingCloudBg.png');
+.bg-TelecomCloudBg {
+  background-image: url('/images/TelecomCloudBg.png');
 }
 
 .from-\[\#111522\] {
@@ -3396,6 +3408,10 @@ input.tab:checked + .tab-content,
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -3680,6 +3696,10 @@ input.tab:checked + .tab-content,
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .italic {

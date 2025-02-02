@@ -33,6 +33,9 @@ module.exports = {
         'healthcareCloudBg': "url('/images/healthcareCloudBg.png')",
         'insuranceSolutionsBg': "url('/images/insuranceSolutionsBg.png')",
         'manufacturingCloudBg': "url('/images/manufacturingCloudBg.png')",
+        'RetailServiceBg': "url('/images/RetailServiceBg.png')",
+        'EnergyUtilitiesBg': "url('/images/EnergyUtilitiesBg.png')",
+        'TelecomCloudBg': "url('/images/TelecomCloudBg.png')",
       }
     },
   },
