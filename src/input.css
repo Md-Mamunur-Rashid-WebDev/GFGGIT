@@ -67,3 +67,9 @@
   .group:hover .group-hover\:scale-105 {
     transform: scale(1.05);
   }
+  .counter-divider {
+    width: 40px;
+    height: 3px;
+    background-color: #0C6DB0;
+    margin: 5px auto;
+}

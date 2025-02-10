@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}","./*.{html,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -36,6 +36,7 @@ module.exports = {
         'RetailServiceBg': "url('/images/RetailServiceBg.png')",
         'EnergyUtilitiesBg': "url('/images/EnergyUtilitiesBg.png')",
         'TelecomCloudBg': "url('/images/TelecomCloudBg.png')",
+        'contactBannerBg': "url('/images/contactUsBanner.png')",
       }
     },
   },

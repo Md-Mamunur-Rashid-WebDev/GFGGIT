@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/src/output.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
 </head>
 <body class="bg-[#0F0F17]">
-    <header id="header" class="px-5">
+    <header id="header" class="px-5 z-10">
         <div class="container mx-auto">
             <div class="navbar bg-transparent text-white">
                 <div class="navbar-start">
@@ -63,30 +63,76 @@
                 <a class="btn btn-ghost text-xl"><img src="../images/logo.png" alt="logo"></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="relative z-50 menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li>
                     <details>
-                        <summary>About</summary>
-                        <ul class="p-2">
-                        <li><a>Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
+                        <summary><a href="/src/about.html">About</a></summary>
+                        <ul class="p-2 text-black">
+                        <li><a></a></li>
+                        <li><a></a></li>
                         </ul>
                     </details>
                     </li>
                     <li>
                     <details>
-                        <summary>Services</summary>
-                        <ul class="p-2">
-                        <li><a>Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
+                        <summary><a href="/src/services.html">Services</a></summary>
+                        <ul class="p-2 text-black">
+                            <li><a href="/src/advisoryService.html">Advisory services</a></li>
+                            <li><a href="/src/trainingService.html">Training services</a></li>
+                            <li>
+                                <details>
+                                    <summary><a href="/src/managedService.html">Manage Services</a></summary>
+                                    <ul class="p-2 text-black">
+                                    <li><a href="/src/managedProject.html">Manage project</a></li>
+                                    <li><a href="/src/manageSupport.html">Manage Support</a></li>
+                                    <li><a href="/src/quickstartPackage.html">Quickstart Package</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary><a href="/src/professionalService.html">Professional Services</a></summary>
+                                    <ul class="p-2 text-black">
+                                    <li><a href="/src/technicalConsultant.html">Technical Consulting</a></li>
+                                    <li><a href="/src/experianceDesign.html">Experience Design</a></li>
+                                    <li><a href="/src/qualityAssurance.html">Quality Assurance</a></li>
+                                    <li>
+                                        <details>
+                                            <summary><a href="/src/SalesforceImplementation.html">Salesforce Implementation</a></summary>
+                                            <ul class="p-2 text-black">
+                                                <li>
+                                                    <details>
+                                                        <summary><a href="/src/cloudServices.html">Cloud Services</a></summary>
+                                                        <ul class="p-2 text-black">
+                                                        <li><a href="/src/salesCloudService.html"></a>Sales Cloud</li>
+                                                        <li><a href="/src/ServiceCloudServices.html">Service Cloud</a></li>
+                                                        <li><a href="/src/MarketingCloudServices.html">Marketing Cloud</a></li>
+                                                        <li><a href="/src/IndustryCloudServices.html">Industry Cloud</a></li>
+                                                        <li><a href="/src/ExperienceCloudServices.html">Experience Cloud</a></li>
+                                                        <li><a href="/src/NonprofitCloudServices.html">Nonprofit Cloud</a></li>
+                                                        <li><a href="/src/FieldServices.html">Field Service</a></li>
+                                                        <li><a href="/src/SalesforceCPQServices.html">Salesforce CPQ</a></li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            <li></li>
+                                            <li><a href="/src/CDMServices.html">Customer Data Management</a></li>
+                                            <li><a href="/src/aiAndAnalytics.html">Analytics And AI</a></li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li><a href="/src/WebDesignDeployment.html">Website Implementation</a></li>
+                                    </ul>
+                                </details>
+                            </li>
                         </ul>
                     </details>
                     </li>
                     <li>
                     <details>
                         <summary>Solutions</summary>
-                        <ul class="p-2">
+                        <ul class="p-2 text-black">
                         <li><a>Submenu 1</a></li>
                         <li><a>Submenu 2</a></li>
                         </ul>
@@ -95,7 +141,7 @@
                     <li>
                     <details>
                         <summary>Work</summary>
-                        <ul class="p-2">
+                        <ul class="p-2 text-black">
                         <li><a>Submenu 1</a></li>
                         <li><a>Submenu 2</a></li>
                         </ul>
@@ -110,7 +156,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="bg-black">
         <section class="pt-10">
             <div class="container mx-auto">
                 <div class="flex justify-between gap-5">
@@ -122,7 +168,7 @@
                         <img
                         src="../images/Mask group.png"
                         class="max-w-sm rounded-lg mb-[-20px]" />
-                        <div class="ml-10">
+                        <div class="ml-10 z-0">
                             <div class="flex gap-3 py-6">
                                 <p class="bg-[#E2E3FF] px-6 py-1 rounded-3xl">Tag here 1</p>
                                 <p class="bg-[#EDE7FF] px-6 py-1 rounded-3xl">Tag here 2</p>

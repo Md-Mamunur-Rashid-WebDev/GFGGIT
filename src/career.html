@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-[#0F0F17]">
+    <!-- Hero section -->
+    <section class="py-40 bg-contactBannerBg bg-cover bg-center bg-no-repeat">
+        <div class="container mx-auto">
+            <div class="w-[90%] flex justify-between text-white mx-auto">
+                <div class="w-1/2">
+                    <p class="mt-40 font-medium text-[16px]">Home/Career</p>
+                </div>
+                <div class="w-1/2">
+                    <p class="text-[32px] font-normal">Have questions, need assistance, or want to learn more about GFGG IT's services? We're here to help. Feel free to reach out to us through any of the following channels.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Job Posts section -->
+    <section class="py-20">
+        <div class="container mx-auto">
+            <div class="mx-auto p-6 text-white">
+                <h1 class="text-4xl font-bold text-center mb-8">Career Opportunities</h1>
+                <p class="text-center text-xl mb-8 w-1/2 mx-auto">GFGG IT is the right place that opens doors to create & contribute, making you more devoted, more eager to learn and more devoted to make an impact.</p>
+                
+                <div class="mb-8 flex justify-center px-4">
+                    <div class="relative w-full max-w-lg">
+                        <input id="search" type="text" placeholder="Search by keyword" class="w-full p-3 pl-6 pr-12 rounded-full bg-gray-800 border border-gray-600 text-white">
+                        <button onclick="filterJobs()" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#57B1E8] px-4 py-2 rounded-full text-white">Search</button>
+                    </div>
+                </div>
+        
+                <div class="flex flex-wrap gap-4 justify-center px-4">
+                    <select id="jobType" class="p-3 px-6 rounded-full bg-gray-800 border border-gray-600 text-white">
+                        <option value="">Job type</option>
+                        <option value="Full time">Full time</option>
+                        <option value="Part time">Part time</option>
+                    </select>
+                    <select id="contractType" class="p-3 px-6 rounded-full bg-gray-800 border border-gray-600 text-white">
+                        <option value="">Contract type</option>
+                        <option value="Permanent">Permanent</option>
+                        <option value="Contract">Contract</option>
+                    </select>
+                    <select id="experienceLevel" class="p-3 px-6 rounded-full bg-gray-800 border border-gray-600 text-white">
+                        <option value="">Experience Level</option>
+                        <option value="Entry">Beginner</option>
+                        <option value="Mid">Intermediate</option>
+                        <option value="Senior">Expert</option>
+                    </select>
+                    <select id="location" class="p-3 px-6 rounded-full bg-gray-800 border border-gray-600 text-white">
+                        <option value="">Location</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Chittagong">Chittagong</option>
+                        <option value="Sylhet">Sylhet</option>
+                    </select>
+                </div>
+        
+                <div class="mt-6">
+                    <table class="w-full text-left border-collapse">
+                        <thead >
+                            <tr class="border-b-[1px] ">
+                                <th class="p-8">Job Title</th>
+                                <th class="p-8">Type</th>
+                                <th class="p-8">Location</th>
+                                <th class="p-8">Salary</th>
+                            </tr>
+                            <tr><td class="h-5"></td></tr>
+                        </thead>
+                        <tbody id="jobList" class="mt-5">
+                            <!-- Jobs will be inserted here dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Program section -->
+    <section class="py-20">
+        <div class="container mx-auto text-center text-white">
+            <h2 class="text-4xl font-semibold mb-5">Why you should join us?</h2>
+            <p class="text-lg font-light w-1/2 mx-auto mb-20">Regardless of your backgrounds, there are many places where you may work together. Working with freedom, responsibility, and inclusiveness is something we value greatly.</p>
+            <div class="grid md:grid-cols-3 gap-6 px-6 w-[90%] mx-auto">
+                <div class="p-6 rounded-lg flex flex-col items-center transform transition duration-300 hover:scale-110 hover:bg-[#2A2A35]">
+                    <img class="mb-3 w-[48px] h-[48px]" src="/images/icons/careerIcon1.svg" alt="">
+                    <h3 class="text-xl font-semibold mb-3">Flexible Timings</h3>
+                    <p>We do it to give employees the tools they need to handle things in a busy world.</p>
+                </div>
+                <div class="p-6 rounded-lg flex flex-col items-center transform transition duration-300 hover:scale-110 hover:bg-[#2A2A35]">
+                    <img class="mb-3 w-[48px] h-[48px]" src="/images/icons/careerIcon2.svg" alt="">
+                    <h3 class="text-xl font-semibold mb-3">Building A Fort</h3>
+                    <p>We have ‘more than multiple’ workshops and activities for indoor and outdoor team building.</p>
+                </div>
+                <div class=" p-6 rounded-lg flex flex-col items-center transform transition duration-300 hover:scale-110 hover:bg-[#2A2A35]">
+                    <img class="mb-3 w-[48px] h-[48px]" src="/images/icons/careerIcon3.svg" alt="">
+                    <h3 class="text-xl font-semibold mb-3">5 Days a Week</h3>
+                    <p>To encourage work-life balance and mental tranquility for our powerhouse, we take off every weekend.</p>
+                </div>
+                <div class=" p-6 rounded-lg flex flex-col items-center transform transition duration-300 hover:scale-110 hover:bg-[#2A2A35]">
+                    <img class="mb-3 w-[48px] h-[48px]" src="/images/icons/careerIcon4.svg" alt="">
+                    <h3 class="text-xl font-semibold mb-3">Training</h3>
+                    <p>Using data-driven and research-based techniques, our professionals & mentors provide practical training and education.</p>
+                </div>
+                <div class=" p-6 rounded-lg flex flex-col items-center transform transition duration-300 hover:scale-110 hover:bg-[#2A2A35]">
+                    <img class="mb-3 w-[48px] h-[48px]" src="/images/icons/careerIcon5.svg" alt="">
+                    <h3 class="text-xl font-semibold mb-3">Space for Recreation</h3>
+                    <p>We have time reserved for both indoor & outdoor games, or anything you may ask for.</p>
+                </div>
+                <div class=" p-6 rounded-lg flex flex-col items-center transform transition duration-300 hover:scale-110 hover:bg-[#2A2A35]">
+                    <img class="mb-3 w-[48px] h-[48px]" src="/images/icons/careerIcon6.svg" alt="">
+                    <h3 class="text-xl font-semibold mb-3">Rewards You Deserve</h3>
+                    <p>GFGG IT acknowledges and recognizes your consistent performance, that grows the foundation of what we stand for.</p>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container mx-auto">
+            <div class="w-[90%] flex justify-center items-center">
+                <div class="shadow-lg rounded-lg flex overflow-hidden">
+                    <!-- Left Side Image -->
+                    <div class="w-1/2">
+                        <img src="../images/recruitment.png" alt="Recruitment" class="w-full h-[710px] object-cover">
+                    </div>
+                    
+                    <!-- Right Side Content -->
+                    <div class="w-1/2 bg-[#1A1A23] text-white p-10 flex flex-col justify-center items-center">
+                        <h2 class="text-4xl font-semibold mb-10">Easy & Fair Recruitement</h2>
+                        <div class="space-y-10">
+                            <!-- Step 1 -->
+                            <div class="flex items-start">
+                                <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">01</span>
+                                <div class="ml-4">
+                                    <h3 class="font-semibold text-lg mb-5">You Submit your Resume</h3>
+                                    <p class="text-sm text-gray-300 font-light">Submit your resume through our user-friendly portal, highlighting your professional experience, skills, and qualifications.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Step 2 -->
+                            <div class="flex items-start">
+                                <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">02</span>
+                                <div class="ml-4">
+                                    <h3 class="font-semibold text-lg mb-5">We Test your Skill and Take short Tests</h3>
+                                    <p class="text-sm text-gray-300 font-light">We'll review your resume carefully. If you qualify, you'll take skill-based tests to gauge your abilities.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Step 3 -->
+                            <div class="flex items-start">
+                                <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">03</span>
+                                <div class="ml-4">
+                                    <h3 class="font-semibold text-lg mb-5">Get to know you better through a Casual Interview</h3>
+                                    <p class="text-sm text-gray-300 font-light">The interview is in a relaxed setting where you'll meet our team and align your career goals with our vision.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Step 4 -->
+                            <div class="flex items-start">
+                                <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">04</span>
+                                <div class="ml-4">
+                                    <h3 class="font-semibold text-lg mb-5">You Get to join our family</h3>
+                                    <p class="text-sm text-gray-300 font-light">After a successful interview, the onboarding begins, ensuring seamless integration into the company.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer text-white p-10">
+        <div class="container mx-auto">
+            <div class="flex justify-between gap-10">
+            <div class="w-[30%] flex flex-col gap-y-5">
+                <img class="w-3/5" src="../images/logo.png" alt="logo">
+                <p>
+                    GFGG IT is not only a Technology company, but also a family of experts who provide unique solutions to major brands, companies, mid-size organizations, and even startups. 
+                </p>
+                <div class="flex items-center gap-0 hover:gap-3">
+                    <button class="py-2 border-none bg-gradient-to-r from-primaryColor1 to-primaryColor2 rounded-full font-normal text-white px-8 ">Download Company Profile</button>
+                    <a href=""><img src="../images/Icon.png" alt="Arrow icon" class="ml-[-8px] w-12"></a>
+                </div>
+            </div>
+            <div class="w-[70%] flex">
+                <div class="flex flex-col w-1/4 gap-y-3">
+                <h6 class="footer-title">Quick Links</h6>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Testimonials</a>
+                <a class="link link-hover">Career</a>
+                <a class="link link-hover">Contact us</a>
+                <a class="link link-hover">GFGG Foundation</a>
+                <a class="link link-hover">GFGG IT Academy</a>
+                <a class="link link-hover">Privacy Policy</a>
+                <a class="link link-hover">Terms & Conditions</a>
+                </div>
+                <div class="flex flex-col w-1/4 gap-y-3">
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Managed Projects</a>
+                <a class="link link-hover">Managed Support</a>
+                <a class="link link-hover">Quickstart Package</a>
+                <a class="link link-hover">Advisory Services</a>
+                <a class="link link-hover">Training Services</a>
+                <a class="link link-hover">Sales Cloud</a>
+                <a class="link link-hover">Service Cloud</a>
+                </div>
+                <div class="flex flex-col w-1/4 gap-y-3">
+                <h6 class="footer-title">Solutions</h6>
+                <a class="link link-hover">Digital 360</a>
+                <a class="link link-hover">Core Cloud</a>
+                <a class="link link-hover">Platform</a>
+                <a class="link link-hover">CDM</a>
+                <a class="link link-hover">Analytics & AI</a>
+                </div>
+                <div class="flex flex-col w-1/4 gap-y-3">
+                <h6 class="footer-title">Contact</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </footer>
+    <div class="container mx-auto">
+        <div class="footer text-gray-300 font-light items-center p-4">
+            <aside class="grid-flow-col items-center">
+                <p>Copyright © 2025 GFGG IT, All Rights Reserved.</p>
+            </aside>
+            <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+                <a>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                    </svg>
+                </a>
+                <a>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                    </svg>
+                </a>
+                <a>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <!-- Script for filter -->
+    <script>
+        const jobs = [
+            { title: "Web Developer", type: "Full time", contract: "Permanent", experience: "Entry", location: "Dhaka", salary: "Negotiable", icon: "../images/icons/wDIcon.svg" },
+            { title: "Full Stack Developer", type: "Full time", contract: "Contract", experience: "Mid", location: "Dhaka", salary: "Comprehensive", icon: "../images/icons/wDIcon.svg" },
+            { title: "Mobile Developer", type: "Part time", contract: "Permanent", experience: "Senior", location: "Chittagong", salary: "Negotiable", icon: "../images/icons/mDIcon.svg" },
+            { title: "Dev Ops Engineer", type: "Full time", contract: "Permanent", experience: "Mid", location: "Sylhet", salary: "Negotiable", icon: "../images/icons/dOEIcon.svg" },
+        ];
+    
+        function displayJobs(filteredJobs) {
+            const jobList = document.getElementById("jobList");
+            jobList.innerHTML = "";
+    
+            filteredJobs.forEach(job => {
+                jobList.innerHTML += `
+                    <tr class="border-b border-gray-700">
+                        <td class="p-3 flex items-center">
+                            <img src="${job.icon}" alt="${job.title} Icon" class="w-6 h-6 mr-2">
+                            <span>${job.title}</span>
+                        </td>
+                        <td class="p-3">${job.type}</td>
+                        <td class="p-3">${job.location}</td>
+                        <td class="p-3">${job.salary}</td>
+                        <td class="p-3">
+                            <button class="bg-[#0f0f16] text-[#086DB0] border border-[#086DB0] border-[1px] px-6 py-2 rounded-full hover:bg-[#57B1E8] hover:text-white">
+                                Apply Now
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            });
+        }
+    
+        function filterJobs() {
+            const search = document.getElementById("search").value.toLowerCase();
+            const jobType = document.getElementById("jobType").value;
+            const contractType = document.getElementById("contractType").value;
+            const experienceLevel = document.getElementById("experienceLevel").value;
+            const location = document.getElementById("location").value;
+    
+            const filteredJobs = jobs.filter(job => 
+                (job.title.toLowerCase().includes(search) || search === "") &&
+                (job.type === jobType || jobType === "") &&
+                (job.contract === contractType || contractType === "") &&
+                (job.experience === experienceLevel || experienceLevel === "") &&
+                (job.location === location || location === "")
+            );
+    
+            displayJobs(filteredJobs);
+        }
+    
+        displayJobs(jobs);
+    </script>
+    
+</body>
+</html>
