@@ -37,6 +37,7 @@ module.exports = {
         'EnergyUtilitiesBg': "url('/images/EnergyUtilitiesBg.png')",
         'TelecomCloudBg': "url('/images/TelecomCloudBg.png')",
         'contactBannerBg': "url('/images/contactUsBanner.png')",
+        'caseStudyBg': "url('/images/caseStudyBg.png')",
       }
     },
   },
