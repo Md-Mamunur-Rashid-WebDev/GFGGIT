@@ -38,6 +38,8 @@ module.exports = {
         'TelecomCloudBg': "url('/images/TelecomCloudBg.png')",
         'contactBannerBg': "url('/images/contactUsBanner.png')",
         'caseStudyBg': "url('/images/caseStudyBg.png')",
+        '50milions': "url('/images/50milions.png')",
+        'highlightBg': "url('/images/highlightBg.png')",
       }
     },
   },

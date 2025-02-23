@@ -157,7 +157,7 @@
             </div>
         </div>
     </header>
-    <main class="bg-black">
+    <main class="">
         <section class="pt-10">
             <div class="container mx-auto">
                 <div class="flex justify-between gap-5">
@@ -194,7 +194,7 @@
             <div class="container mx-auto">
                 <div class="flex gap-10">
                     <div class="w-1/2">
-                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                         </svg>
@@ -265,7 +265,7 @@
             <div class="container mx-auto">
                 <div class="flex gap-10 pt-20">
                     <div class="w-1/2">
-                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline mb-5 w-[30%] mx-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                         </svg>
@@ -289,9 +289,9 @@
         </section>
         <section>
             <div class="container mx-auto">
-                <div class="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:w-[90%] mx-auto">
                     <!-- Card 1 -->
-                    <div class="rounded-3xl p-6 bg-services-1 bg-cover bg-no-repeat shadow-lg">
+                    <div class="rounded-3xl p-6 bg-services-1 bg-cover bg-no-repeat bg-center shadow-lg">
                         <h3 class="text-2xl font-semibold text-white mb-4">Advisory Services</h3>
                         <p class="text-gray-300 mb-6">
                             Expert advice on Salesforce clouds, solving business challenges with deep knowledge.
@@ -303,39 +303,44 @@
                     </div>
                 
                     <!-- Card 2 -->
-                    <div class="rounded-3xl p-6 bg-services-2 bg-no-repeat shadow-lg">
-                        <h3 class="text-2xl font-semibold text-white mb-4">Training Services</h3>
-                        <p class="text-gray-300 mb-6">
-                            Clear, structured online classes for effortless course completion with guaranteed success.
-                        </p>
-                        <div class="flex items-center gap-0 hover:gap-3">
-                            <button class="py-2 border-none bg-gradient-to-r from-primaryColor1 to-primaryColor2 rounded-full font-normal text-white px-8">Engage Now</button>
-                            <a href=""><img src="../images/Icon.png" alt="Arrow icon" class="ml-[-8px] w-12"></a>
+                    <div class="rounded-3xl p-6 bg-services-2 bg-no-repeat bg-cover bg-center shadow-lg">
+                        <div class="mt-40">
+                            <h3 class="text-2xl font-semibold text-white mb-4">Training Services</h3>
+                            <p class="text-gray-300 mb-6">
+                                Clear, structured online classes for effortless course completion with guaranteed success.
+                            </p>
+                            <div class="flex items-center gap-0 hover:gap-3">
+                                <button class="py-2 border-none bg-gradient-to-r from-primaryColor1 to-primaryColor2 rounded-full font-normal text-white px-8">Engage Now</button>
+                                <a href=""><img src="../images/Icon.png" alt="Arrow icon" class="ml-[-8px] w-12"></a>
+                            </div>
                         </div>
                     </div>
                 
                     <!-- Card 3 -->
-                    <div class="rounded-3xl p-6 bg-services-3 bg-no-repeat shadow-lg">
-                        <h3 class="text-2xl font-semibold mb-4">Managed Services</h3>
-                        <p class="text-black mb-6">
-                            With agile Salesforce upgrades, you can innovate and manage projects like never before.
-                        </p>
-                        <div class="flex items-center gap-0 hover:gap-3">
-                            <button class="py-2 border-none bg-gradient-to-r from-primaryColor1 to-primaryColor2 rounded-full font-normal text-white px-8">Engage Now</button>
-                            <a href=""><img src="../images/Icon.png" alt="Arrow icon" class="ml-[-8px] w-12"></a>
+                    <div>
+                        <div class="rounded-3xl p-6 bg-services-3 bg-no-repeat bg-cover bg-center shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-4">Managed Services</h3>
+                            <p class="text-black mb-6">
+                                With agile Salesforce upgrades, you can innovate and manage projects like never before.
+                            </p>
+                            <div class="flex items-center gap-0 hover:gap-3">
+                                <button class="py-2 border-none bg-gradient-to-r from-primaryColor1 to-primaryColor2 rounded-full font-normal text-white px-8">Engage Now</button>
+                                <a href=""><img src="../images/Icon.png" alt="Arrow icon" class="ml-[-8px] w-12"></a>
+                            </div>
+                        </div>
+                    
+                        <!-- Counter Card -->
+                        <div class="rounded-3xl p-6 bg-projects bg-cover bg-no-repeat bg-center text-center shadow-lg flex items-center justify-center mt-10">
+                            <div>
+                                <p id="counter" class="text-5xl font-bold text-white">0+</p>
+                                <p class="text-white">Projects delivered</p>
+                            </div>
                         </div>
                     </div>
-                
-                    <!-- Counter Card -->
-                    <div class="rounded-3xl p-6 bg-projects bg-cover bg-no-repeat text-center shadow-lg flex items-center justify-center">
-                        <div>
-                            <p id="counter" class="text-5xl font-bold text-white">0+</p>
-                            <p class="text-white">Projects delivered</p>
-                        </div>
-                    </div>
+                    
                 
                     <!-- Wide Card - Professional Services -->
-                    <div class="col-span-1 md:col-span-2 lg:col-span-4 rounded-3xl p-6 bg-services-4 bg-no-repeat shadow-lg flex flex-col justify-center">
+                    <div class="col-span-1 md:col-span-2 lg:col-span-4 rounded-3xl p-6 bg-services-4 bg-no-repeat bg-cover bg-center shadow-lg flex flex-col justify-center">
                         <h3 class="text-2xl text-white font-semibold mb-4">Professional Services</h3>
                         <p class="text-gray-300 mb-6">
                             Comprehensive IT solutions and services for businesses, driving success through technology.
@@ -353,7 +358,7 @@
         <section class="py-20">
             <div class="container mx-auto">
                 <div class="pb-10">
-                    <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                    <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                     </svg>
@@ -364,7 +369,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
                     <!-- Why Us Card 1 -->
-                    <div class="border-t-2 border-green-400 pt-4">
+                    <div class="border-t-2 border-primaryColor1 pt-4">
                         <h3 class="text-lg text-white font-semibold mb-2">Client-Centric Approach</h3>
                         <p class="text-gray-400 mb-4">
                             Understanding your needs to deliver precise, impactful solutions.
@@ -374,7 +379,7 @@
                     </div>
                 
                     <!-- Why Us Card 2 -->
-                    <div class="border-t-2 border-yellow-400 pt-4">
+                    <div class="border-t-2 border-primaryColor1 pt-4">
                         <h3 class="text-lg text-white font-semibold mb-2">Proven Track Record</h3>
                         <p class="text-gray-400 mb-4">
                             A track record of high-quality projects delivered on time and within budget.
@@ -384,7 +389,7 @@
                     </div>
                 
                     <!-- Why Us Card 3 -->
-                    <div class="border-t-2 border-blue-400 pt-4">
+                    <div class="border-t-2 border-primaryColor1 pt-4">
                         <h3 class="text-lg text-white font-semibold mb-2">Cutting-Edge Technology</h3>
                         <p class="text-gray-400 mb-4">
                             Deep knowledge and experience in IT for tailored, innovative solutions.
@@ -394,7 +399,7 @@
                     </div>
                 
                     <!-- Why Us Card 4 -->
-                    <div class="border-t-2 border-red-400 pt-4 flex flex-col items-start">
+                    <div class="border-t-2 border-primaryColor1 pt-4 flex flex-col items-start">
                         <h3 class="text-lg text-white font-semibold mb-2">Continuous Innovation</h3>
                         <p class="text-gray-400 mb-4">
                             Leveraging the latest technology trends for cutting-edge solutions.
@@ -409,7 +414,8 @@
         <section>
             <div class="container mx-auto">
                 <div class="mx-auto py-[120px] px-24 bg-[#100b20] rounded-3xl">
-                    <span class="text-5xl font-bold text-white">Salesforce empowers </span><span class="text-5xl font-bold bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text">companies to connect with customers</span> <span class="text-5xl font-bold text-white">in a whole new way, driving </span><span class="text-5xl font-bold bg-gradient-to-r from-primaryColor1 to-primaryColor2git text-transparent bg-clip-text">growth and innovation.</span>
+                    <p><span class="text-[60px] font-bold text-white">Salesforce empowers </span><span class="text-5xl font-bold bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text">companies to connect with customers</span> <span class="text-5xl font-bold text-white">in a whole new way, driving </span><span class="text-5xl font-bold bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text">growth and innovation.</span>
+                    </p>
                 </div>
             </div>
         </section>
@@ -417,7 +423,7 @@
         <section class="py-20">
             <div class="container mx-auto">
                 <div class="pb-10">
-                    <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                    <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                     </svg>
@@ -427,7 +433,7 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                     <!-- Revenue Growth -->
-                    <div class="p-6 rounded-lg bg-[#111023] shadow-lg">
+                    <div class="p-6 rounded-lg bg-50milions bg-cover bg-center bg-no-repeat shadow-lg">
                         <h2 class="text-5xl text-white font-bold">$50 million</h2>
                         <h3 class="text-lg text-white font-semibold mt-2">Revenue Growth</h3>
                         <p class="text-white mt-2">
@@ -435,7 +441,7 @@
                         </p>
                     </div>
                     <!-- Client Satisfaction -->
-                    <div class="p-6 rounded-lg bg-[#111023] shadow-lg">
+                    <div class="p-6 rounded-lg shadow-lg">
                         <h2 class="text-5xl text-white font-bold">98%</h2>
                         <h3 class="text-lg text-white font-semibold mt-2">Client Satisfaction</h3>
                         <p class="text-white mt-2">
@@ -443,7 +449,7 @@
                         </p>
                     </div>
                     <!-- Conversion Rate -->
-                    <div class="p-6 rounded-lg bg-[#111023] shadow-lg">
+                    <div class="p-6 rounded-lg shadow-lg">
                         <h2 class="text-5xl text-white font-bold">1,000+</h2>
                         <h3 class="text-lg text-white font-semibold mt-2">Conversion Rate</h3>
                         <p class="text-white mt-2">
@@ -457,16 +463,16 @@
         <section class="py-20 ">
             <div class="container mx-auto bg-[#12141f] rounded-3xl">
                 <div class="text-center pt-20 pb-10">
-                    <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                    <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                         </svg>
                         <span>Solutions</span>
                     </div>
-                    <h2 class="font-bold text-4xl text-white pt-5">Core solutions that span <br> across your business</h2>
+                    <h2 class="font-bold text-6xl text-white pt-5">Core solutions that span <br> across your business</h2>
                 </div>
-                <div class="w-full p-6">
-                    <div class="flex justify-center space-x-6 pb-4">
+                <div class="w-full p-8">
+                    <div class="flex justify-center space-x-10 pb-4">
                         <button class="tab-button gap-y-5 flex flex-col items-center focus:outline-none text-white  active-tab" data-tab="1">
                         <div class="text-2xl p-3 rounded-2xl"><img src="../images/icons/salesCould.svg" alt=""></div>
                         <span class="text-sm">Sales Cloud</span>
@@ -697,7 +703,7 @@
             <div class="container mx-auto">
                 <div class="flex gap-10">
                     <div class="w-1/2">
-                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                         </svg>
@@ -859,7 +865,7 @@
                 <div class="text-white py-10">
                     <div class="text-center">
                         <!-- Badge -->
-                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-indigo-600 inline">
+                        <div class="text-white text-[12px] px-5 py-2 rounded-3xl border-solid border-[1px] border-primaryColor1 inline">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 inline">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
                             </svg>
@@ -934,10 +940,10 @@
         </section>
         <!-- Highlight section -->
         <section class="py-20">
-            <div class="container mx-auto">
+            <div class="container mx-auto bg-highlightBg bg-cover bg-no-repeat bg-center">
                 <div class="flex justify-between flex-row gap-5">
                     <div class="w-3/5">
-                        <h2 class="text-5xl font-bold mb-4 text-white">Let’s highlight <span class="bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text">your values</span> to <span class="bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text"> your customers</span>. But first, let’s 
+                        <h2 class="text-[60px] font-bold mb-4 text-white">Let’s highlight <span class="bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text">your values</span> to <span class="bg-gradient-to-r from-primaryColor1 to-primaryColor2 text-transparent bg-clip-text"> your customers</span>. But first, let’s 
                             get familiar with each other.</h2>
                     </div>
                     <div class="w-2/5 pt-5">

@@ -3047,6 +3047,18 @@ input.tab:checked + .tab-content,
   margin-top: -40px;
 }
 
+.mt-\[24rem\] {
+  margin-top: 24rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-\[-100px\] {
+  margin-top: -100px;
+}
+
 .block {
   display: block;
 }
@@ -3129,12 +3141,12 @@ input.tab:checked + .tab-content,
   height: 554px;
 }
 
-.h-\[575px\] {
-  height: 575px;
-}
-
 .h-\[630px\] {
   height: 630px;
+}
+
+.h-\[660px\] {
+  height: 660px;
 }
 
 .h-\[710px\] {
@@ -3327,6 +3339,10 @@ input.tab:checked + .tab-content,
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -3383,6 +3399,12 @@ input.tab:checked + .tab-content,
   row-gap: 1.25rem;
 }
 
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-16 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(4rem * var(--tw-space-x-reverse));
@@ -3399,12 +3421,6 @@ input.tab:checked + .tab-content,
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -3689,11 +3705,6 @@ input.tab:checked + .tab-content,
   background-color: rgb(226 76 74 / var(--tw-bg-opacity, 1));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
@@ -3731,6 +3742,10 @@ input.tab:checked + .tab-content,
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-50milions {
+  background-image: url('/images/50milions.png');
 }
 
 .bg-EnergyUtilitiesBg {
@@ -3795,6 +3810,10 @@ input.tab:checked + .tab-content,
 
 .bg-healthcareCloudBg {
   background-image: url('/images/healthcareCloudBg.png');
+}
+
+.bg-highlightBg {
+  background-image: url('/images/highlightBg.png');
 }
 
 .bg-insuranceSolutionsBg {
@@ -3899,6 +3918,10 @@ input.tab:checked + .tab-content,
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-16 {
+  padding: 4rem;
 }
 
 .p-2 {
@@ -4188,6 +4211,10 @@ input.tab:checked + .tab-content,
   font-size: 50px;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .text-\[80px\] {
   font-size: 80px;
 }
@@ -4215,6 +4242,15 @@ input.tab:checked + .tab-content,
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-\[120px\] {
+  font-size: 120px;
 }
 
 .font-bold {
@@ -4376,6 +4412,26 @@ input.tab:checked + .tab-content,
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[9xl\] {
+  color: 9xl;
+}
+
+.text-\[1\] {
+  color: 1;
+}
+
+.text-\[12\] {
+  color: 12;
+}
+
+.text-\[120\] {
+  color: 120;
+}
+
+.text-\[120p\] {
+  color: 120p;
 }
 
 .underline {
@@ -4711,8 +4767,16 @@ input.tab:checked + .tab-content,
     width: 50%;
   }
 
+  .lg\:w-\[90\%\] {
+    width: 90%;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4 {
