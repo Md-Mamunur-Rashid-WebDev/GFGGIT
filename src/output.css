@@ -3659,11 +3659,6 @@ input.tab:checked + .tab-content,
   background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
-}
-
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
@@ -3691,6 +3686,15 @@ input.tab:checked + .tab-content,
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#22222D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 45 / var(--tw-bg-opacity, 1));
 }
 
 .bg-50milions {
@@ -3897,6 +3901,10 @@ input.tab:checked + .tab-content,
   padding: 2rem;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -3997,34 +4005,19 @@ input.tab:checked + .tab-content,
   padding-bottom: 140px;
 }
 
+.py-\[295px\] {
+  padding-top: 295px;
+  padding-bottom: 295px;
+}
+
 .py-\[300px\] {
   padding-top: 300px;
   padding-bottom: 300px;
 }
 
-.py-\[320px\] {
-  padding-top: 320px;
-  padding-bottom: 320px;
-}
-
 .py-\[330px\] {
   padding-top: 330px;
   padding-bottom: 330px;
-}
-
-.py-\[270px\] {
-  padding-top: 270px;
-  padding-bottom: 270px;
-}
-
-.py-\[285px\] {
-  padding-top: 285px;
-  padding-bottom: 285px;
-}
-
-.py-\[295px\] {
-  padding-top: 295px;
-  padding-bottom: 295px;
 }
 
 .pb-10 {
@@ -4384,12 +4377,13 @@ input.tab:checked + .tab-content,
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-\[\#666666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity, 1));
 }
 
-.opacity-75 {
-  opacity: 0.75;
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow {
