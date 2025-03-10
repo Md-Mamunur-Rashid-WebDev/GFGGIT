@@ -2806,10 +2806,6 @@ input.tab:checked + .tab-content,
   visibility: visible;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -2844,10 +2840,6 @@ input.tab:checked + .tab-content,
 
 .right-\[32\%\] {
   right: 32%;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .top-1\/2 {
@@ -3209,10 +3201,6 @@ input.tab:checked + .tab-content,
   width: 48px;
 }
 
-.w-\[50\%\] {
-  width: 50%;
-}
-
 .w-\[70\%\] {
   width: 70%;
 }
@@ -3229,12 +3217,8 @@ input.tab:checked + .tab-content,
   width: 100%;
 }
 
-.w-\[0\%\] {
-  width: 0%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
+.w-1 {
+  width: 0.25rem;
 }
 
 .max-w-3xl {
@@ -4013,6 +3997,36 @@ input.tab:checked + .tab-content,
   padding-bottom: 140px;
 }
 
+.py-\[300px\] {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.py-\[320px\] {
+  padding-top: 320px;
+  padding-bottom: 320px;
+}
+
+.py-\[330px\] {
+  padding-top: 330px;
+  padding-bottom: 330px;
+}
+
+.py-\[270px\] {
+  padding-top: 270px;
+  padding-bottom: 270px;
+}
+
+.py-\[285px\] {
+  padding-top: 285px;
+  padding-bottom: 285px;
+}
+
+.py-\[295px\] {
+  padding-top: 295px;
+  padding-bottom: 295px;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -4209,15 +4223,6 @@ input.tab:checked + .tab-content,
   line-height: 1rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-\[120px\] {
-  font-size: 120px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -4377,10 +4382,6 @@ input.tab:checked + .tab-content,
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -4570,11 +4571,6 @@ input.tab:checked + .tab-content,
   --tw-gradient-to: #0E0E11 var(--tw-gradient-to-position);
 }
 
-.hover\:text-gray-300:hover {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
-}
-
 .hover\:text-indigo-500:hover {
   --tw-text-opacity: 1;
   color: rgb(99 102 241 / var(--tw-text-opacity, 1));
@@ -4701,20 +4697,20 @@ input.tab:checked + .tab-content,
     width: 50%;
   }
 
-  .lg\:w-\[90\%\] {
-    width: 90%;
-  }
-
-  .lg\:w-\[40\%\] {
-    width: 40%;
+  .lg\:w-\[20\%\] {
+    width: 20%;
   }
 
   .lg\:w-\[30\%\] {
     width: 30%;
   }
 
-  .lg\:w-\[20\%\] {
-    width: 20%;
+  .lg\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .lg\:w-\[90\%\] {
+    width: 90%;
   }
 
   .lg\:grid-cols-2 {
