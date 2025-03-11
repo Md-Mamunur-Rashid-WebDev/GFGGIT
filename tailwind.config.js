@@ -40,6 +40,7 @@ module.exports = {
         'caseStudyBg': "url('/images/caseStudyBg.png')",
         '50milions': "url('/images/50milions.png')",
         'highlightBg': "url('/images/highlightBg.png')",
+        'contactBg': "url('/images/contactBg.png')",
       }
     },
   },

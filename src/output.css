@@ -3217,10 +3217,6 @@ input.tab:checked + .tab-content,
   width: 100%;
 }
 
-.w-1 {
-  width: 0.25rem;
-}
-
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -3481,10 +3477,6 @@ input.tab:checked + .tab-content,
   border-left-width: 1px;
 }
 
-.border-r {
-  border-right-width: 1px;
-}
-
 .border-t-2 {
   border-top-width: 2px;
 }
@@ -3629,6 +3621,11 @@ input.tab:checked + .tab-content,
   background-color: rgb(32 32 32 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#22222D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 45 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#57B1E8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(87 177 232 / var(--tw-bg-opacity, 1));
@@ -3688,13 +3685,12 @@ input.tab:checked + .tab-content,
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\] {
-  background-color: ;
+.bg-\[\#0f0f1700\] {
+  background-color: #0f0f1700;
 }
 
-.bg-\[\#22222D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 34 45 / var(--tw-bg-opacity, 1));
+.bg-\[\#0F0F1700\] {
+  background-color: #0F0F1700;
 }
 
 .bg-50milions {
@@ -3739,6 +3735,10 @@ input.tab:checked + .tab-content,
 
 .bg-contactBannerBg {
   background-image: url('/images/contactUsBanner.png');
+}
+
+.bg-contactBg {
+  background-image: url('/images/contactBg.png');
 }
 
 .bg-coreCloudBg {
@@ -3847,6 +3847,10 @@ input.tab:checked + .tab-content,
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
@@ -3899,10 +3903,6 @@ input.tab:checked + .tab-content,
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-20 {
-  padding: 5rem;
 }
 
 .px-1 {
@@ -4284,6 +4284,11 @@ input.tab:checked + .tab-content,
   color: rgb(56 107 183 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#666666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#929292\] {
   --tw-text-opacity: 1;
   color: rgb(146 146 146 / var(--tw-text-opacity, 1));
@@ -4348,11 +4353,6 @@ input.tab:checked + .tab-content,
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
-}
-
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
@@ -4375,11 +4375,6 @@ input.tab:checked + .tab-content,
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#666666\] {
-  --tw-text-opacity: 1;
-  color: rgb(102 102 102 / var(--tw-text-opacity, 1));
 }
 
 .underline {
